@@ -1,0 +1,6 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/springbootamigosdb
+    username: postgres # Pleier å hete postgres
+    password: root # passord vi definerte når vi lagde docker container
+    pool-size: 30 # pool-size er hvor mange connections vi kan ha aktive, istedenfor å måtte lage ny connection hver gang vi vil execute query mot vår db
